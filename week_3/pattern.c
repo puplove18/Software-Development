@@ -1,3 +1,16 @@
+/*
+Write a program that prints an pyramid pattern of n rows, where n is given by the user.
+Example:
+Tobias Meggendorfer – Michaelmas Term 2023/24
+> Enter number of rows: 5
+>      *
+>     ***
+>    *****
+>   *******
+>  *********
+*/
+
+
 #include <stdio.h>
 
 int main() {
