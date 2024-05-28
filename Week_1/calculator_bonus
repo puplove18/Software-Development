@@ -1,1 +1,18 @@
+// Write a C program that computes and prints the sum of two variables.
+
 #include <stdio.h>
+
+int main() {
+  int a, b, result;
+	printf("ENTER THE FIRST NUMBER: ");
+	scanf("%d", &a);
+	
+	printf("ENTER THE SECOND NUMBER: ");
+	scanf("%d", &b);
+
+	result = a+b;
+
+	printf("RESULT OF %d + %d IS %d\n", a, b, result);
+
+	return 0;
+}
