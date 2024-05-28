@@ -1,3 +1,16 @@
+/*
+As explained in the comic, consider the following process. Start-
+ing from an arbitrary integer n, repeat the following steps:
+• If the current number is one, stop.
+• If the current number is even, divide it by two (n/2).
+• If the current number is odd, triple it and add one (3n+1).
+The Collatz conjecture states that this process will always termi-
+nate, i.e. the number one is eventually reached. Write a program
+that checks the Collatz conjecture for a number given by the
+user by applying these rules until 1 is reached.
+*/
+
+
 #include <stdio.h>
 
 int main() {
