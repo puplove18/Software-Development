@@ -1,0 +1,24 @@
+/*
+Write a function that reverses a given int array. For example, if you get {2, 5, 3, 1}, your function
+should change the array to {1, 3, 5, 2}. Test your function by printing its result on a few arrays.
+Hint: Use the function of the previous exercise.
+Adapt the function to work with strings. What needs to change?
+Bonus: Read a text from the user (you can assume that less than 1024 characters are entered) and check
+whether the given text is a palindrome, i.e. whether it is the same if read from the front and the back,
+such as “racecar”.
+*/
+
+#include <stdio.h>
+void reverse(int arrau[], int size) {
+  for (int i = 0; i < size/2; i++) {
+    int val = array[size - i - 1];
+    array[size - i - 1] = array[i];
+    array[i] = val;
+    }
+  }
+
+int main() {
+  int test[] = {2, 5, 3, 1};
+  revere(test, 4);
+  print_int_array(test, 4);
+  }
